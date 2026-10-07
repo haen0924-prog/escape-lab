@@ -154,6 +154,15 @@ body.alarm::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:
 .rank{font-size:80px;text-align:center;color:var(--gold);text-shadow:0 0 30px var(--gold);animation:in 1s 1.6s both}
 .stats{display:flex;justify-content:space-around;margin:10px 0 6px;color:var(--sub);font-size:13px;text-align:center}
 .stats b{display:block;font-size:22px;color:var(--text);font-family:'Black Han Sans';font-weight:400}
+/* 마지막 화면을 모바일 한 화면에 맞추기 */
+#ending{padding-top:4px!important}
+#ending .glitch{font-size:34px}
+#ending .glitch small{font-size:14px;margin-bottom:2px}
+#ending .grid{gap:8px;margin:12px auto;width:min(100%, calc((100vh - 360px) * .75));width:min(100%, calc((100svh - 360px) * .75));min-width:180px}
+#ending .final{font-size:22px}
+#ending .rank{font-size:52px;line-height:1.1}
+#ending .stats{margin:4px 0}
+#ending .btn{margin-top:10px!important;padding:13px}
 </style>
 </head>
 <body>
